@@ -68,13 +68,17 @@ function desencriptar(mensaje){
 }
 
 botonEncriptar.addEventListener('click',()=>{
-  mensajeFinal.textContent = encriptar(texto.value);
-  hayMensaje.textContent = "Tu mensaje encriptado es este"
+  if(texto.value !== ""){
+    mensajeFinal.textContent = encriptar(texto.value);
+    hayMensaje.textContent = "Tu mensaje encriptado es este"
+  }
 });
 
 botonDesencriptar.addEventListener('click',()=>{
-  mensajeFinal.textContent = desencriptar(texto.value);
-  hayMensaje.textContent = "Tu mensaje desencriptado es este"
+  if(texto.value !== ""){
+    mensajeFinal.textContent = desencriptar(texto.value);
+    hayMensaje.textContent = "Tu mensaje desencriptado es este"
+  }
 });
 
 botonCopiar.addEventListener('click',()=>{
