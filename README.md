@@ -2,6 +2,8 @@
 
 Este desafio corresponde al programa impartido por Oracle Next en compañía de Alura Latam. La página sirve como encriptador y desencriptador de textos, con la opción de copiar el resultado al clipboard de la computadora.
 
+[Pueden ver mi solución al desafío en este enlace](https://dnewbie25.github.io/Alura-Oracle-Next-Encriptador/)
+
 ## Vista previa en escritorio
 
 ![Desktop view](./encriptador.gif)
