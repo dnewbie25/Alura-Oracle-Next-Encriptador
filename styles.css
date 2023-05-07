@@ -96,6 +96,7 @@ button:active,
 #mensaje-final{
   margin: var(--small) 0;
   font-size: 12px;
+  color: #0A3871;
 }
 
 
