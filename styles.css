@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+  --fuente: 'Inter', sans-serif;
+  --small: 10px;
+  --middle: 16px;
+  --large: 32px;
+  --xl:48px;
+  --xxl: 64px;
+}
+
+*{ 
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: var(--fuente);
+}
+
+body{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--small);
+  margin: 0 auto;
+  text-align: center;
+}
+
+body > #logo,
+body > section{
+  padding: 0.4rem;
+}
+
+section,
+section > *{
+  width: 100%;
+}
+
+section #warning{
+  margin: var(--small) 0;
+  font-size: var(--small);
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: left;
+  align-items: center;
+}
+
+section #warning svg{
+  margin-right: 0.4rem;
+  
+}
+
+button{
+  padding: var(--small);
+  border: 1px solid #0A3871;
+  border-color: #0A3871;
+  cursor: pointer;
+  border-radius: 24px;
+  width: 120px;
+  background-color: white;
+  color: #0A3871;
+}
+
+button:hover{
+  background-color: rgb(161, 157, 157);
+}
+
+#encriptar{
+  background-color: #0A3871;
+  color: white;
+}
+
+#encriptar:hover{
+  background-color: #376baa;
+}
+
+button:active,
+#encriptar:active{
+  background-color: rgb(207, 217, 236);
+  color: #0A3871;
+}
+
+#texto-a-encriptar textarea{
+  border: #0A3871 1px solid;
+  padding: var(--middle);
+  color: #0A3871;
+  border-radius: 24px;
+}
+
+#resultado {
+  grid-area: "resultado";
+}
+
+#hay-mensaje{
+  font-weight: 700;
+}
+
+#mensaje-final{
+  margin: var(--small) 0;
+  font-size: 12px;
+}
+
+
+
+@media (min-width: 770px) {
+  body{
+    grid-template-columns: 80px 1fr 500px;
+    text-align: center;
+  }
+
+  section #warning{
+    font-size: var(--middle);
+  }
+  button{
+    font-size: var(--middle);
+    width: 328px;
+  }
+}
