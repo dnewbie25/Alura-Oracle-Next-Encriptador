@@ -4,7 +4,11 @@ Este desafio corresponde al programa impartido por Oracle Next en compañía de 
 
 ## Vista previa en escritorio
 
+[Desktop view](encriptador mobile.gif)
+
 ## Vista previa en dispositivo móvil
+
+[Mobile view](encriptador.gif)
 
 ## Especificaciones del desafío
 
